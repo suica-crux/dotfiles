@@ -1,6 +1,0 @@
-oh-my-fish/theme-bobthefish
-jethrokuan/z
-oh-my-fish/plugin-peco
-0rax/fish-bd
-jethrokuan/fzf
-laughedelic/fish_logo
