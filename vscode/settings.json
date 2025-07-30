@@ -17,20 +17,11 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "fiveServer.ignore": [],
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.ignoreWords": [
-    "AAEA",
-    "EACE",
-    "OAHQ",
-    "bmewburn",
-    "catppuccin",
-    "esbenp"
-  ],
   "window.newWindowProfile": "既定",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
