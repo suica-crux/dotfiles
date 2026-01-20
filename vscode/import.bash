@@ -1,4 +1,4 @@
-EXTENSION_FILE="vscode/extensions.txt"
+EXTENSION_FILE="extensions.txt"
 
 if [ ! -f "$EXTENSION_FILE" ]; then
     echo "No extensions file found at $EXTENSION_FILE. Skipping export."

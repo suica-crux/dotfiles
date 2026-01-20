@@ -1,4 +1,4 @@
-EXTENSION_FILE="vscode/extensions.txt"
+EXTENSION_FILE="extensions.txt"
 
 echo "Exporting list of installed VSCode extensions to $EXTENSION_FILE"
 code --list-extensions > "$EXTENSION_FILE"

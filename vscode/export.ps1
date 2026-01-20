@@ -1,4 +1,4 @@
-$ExtensionFile="vscode/extensions.txt"
+$ExtensionFile="extensions.txt"
 
 Write-Host "Exporting list of installed VSCode extensions to $ExtensionFile"
 try {

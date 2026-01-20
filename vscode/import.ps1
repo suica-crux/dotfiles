@@ -1,4 +1,4 @@
-$ExtensionFile="vscode/extensions.txt"
+$ExtensionFile="extensions.txt"
 
 if (-not (Test-Path $ExtensionFile)) {
     Write-Host "No extensions file found at $ExtensionFile. Skipping export."
