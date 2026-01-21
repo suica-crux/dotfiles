@@ -31,3 +31,5 @@ status is-interactive; and begin
     end
 
 end
+
+set -gx GPG_TTY (tty)

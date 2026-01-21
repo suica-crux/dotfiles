@@ -41,6 +41,9 @@
       commit = {
         gpgsign = true;
       };
+      credential = {
+        helper = "!gh auth git-credential";
+      };
     };
     signing = {
       key = "7FBA0C906284C1DB";
