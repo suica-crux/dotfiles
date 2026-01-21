@@ -27,7 +27,8 @@
     tree
     unzip
   ];
-
+  xdg.configFile."fish".source = ./config/fish;
+  xdg.configFile."nvim".source = .config/nvim;
   programs.fish.enable = true;
   programs.home-manager.enable = true;
 }
