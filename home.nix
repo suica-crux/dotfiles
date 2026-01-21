@@ -31,4 +31,20 @@
   xdg.configFile."nvim".source = ./config/nvim;
   programs.fish.enable = true;
   programs.home-manager.enable = true;
+  programs.git = {
+    enable = true;
+    settings = {
+      user = {
+        user.name = "suica-crux";
+        user.email = "autumn@vipelar.com";
+      };
+      commit = {
+        gpgsign = true;
+      };
+    };
+    signing = {
+      key = "7FBA0C906284C1DB";
+      signByDefault = true;
+    };
+  };
 }
